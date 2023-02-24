@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(242, 235, 255);
+}
+html{
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-size: 1.5rem;
+    padding-top: 0.9rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.h1c{
+    background-color: blueviolet;
+    width:34rem;
+    height:4rem;
+   
+    border-radius:20px;
+}
+.container{
+    width:34rem;
+    margin: auto;
+}
+ul{
+    margin-top:2rem;
+    list-style: none;
+}
+li{
+background-color: white;
+height:3.2rem;
+font-size: 1.9rem;
+padding-top: 1.2rem;
+padding-left:1rem;
+width: 33rem;
+border-bottom: 1px solid rgb(228, 217, 217);
+}
+/* li:nth-child(1){
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+} */
+/* li:last-child{
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}  */
+ul{
+padding:0px;
+}
+ul{
+    box-shadow: 2px 2px 3px;
+}
+.myText{
+    margin-left: 2rem;
+    display: inline-block;
+}
+.formclass{
+    position: relative;
+    padding-bottom: 2px;
+    height:3rem;
+}
+.myimg{
+    position:absolute;
+    right:5px;
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    border:none;
+    background: url("/images/icons8-add-new-48.png");
+    background-size:contain;
+    top:6px;
+}
+input[type="text"]{
+    width:20rem;
+    height:2rem;
+    font-size: 1.4rem;
+    padding-left: 3rem;
+    border: none;
+}
+.items:hover{
+    background-color: rgb(193, 181, 198);
+}
+input:checked + .myText{
+    text-decoration: line-through;
+}
